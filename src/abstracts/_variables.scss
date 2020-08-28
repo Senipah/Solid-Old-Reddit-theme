@@ -49,6 +49,7 @@ $_images: (
   "noresults": "noresults",
   "spritesheet": "spritesheet",
   "title": "title",
+  "sidebarimg": "sidebarimg",
   "info-shield": "info-shield",
 );
 
@@ -110,15 +111,8 @@ $_colors: (
   ),
   "linkflair": (
     "default": #738491,
-    "unsolved": $orangered,
-    "solved": #738491,
-    "discussion": #007acc,
-    "challenge": #007acc,
-    "protip": #e0d400,
-    "codereview": #800080,
     "modpost": $moderator,
-    "advertisement": #333333,
-    "showntell": #000,
+    "inrupter": #936dfd,
   ),
   "code": (
     "background": #1e1e1e,
