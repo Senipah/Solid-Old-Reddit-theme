@@ -5,7 +5,12 @@ body {
   button,
   .c-btn,
   .wiki-page .wiki-page-content .wiki_button,
+  .prev-button a,
   .next-button a {
     @include v.button;
   }
+}
+
+.prev-button a {
+  margin-right: 0 !important;
 }
