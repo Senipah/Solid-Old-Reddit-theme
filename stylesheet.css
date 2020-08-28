@@ -74,6 +74,10 @@ a {
   }
 }
 
+.separator {
+  border-radius: 0px;
+}
+
 .footer-parent {
   position: relative;
   margin-top: 60px;
@@ -137,7 +141,7 @@ a {
   content: "Apps & Tools ";
 }
 .footer.rounded .col:nth-of-type(4):before {
-  content: "<3 ";
+  content: "❤️ ";
 }
 .footer.rounded .col:after {
   display: inline-block;
@@ -314,12 +318,12 @@ a {
 }
 
 #mail.havemail:before {
-  animation-name: uzedrxr;
+  animation-name: uvtgt85;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes uzedrxr {
+@keyframes uvtgt85 {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -1780,7 +1784,7 @@ body:not(.subscriber) .content {
   content: " ";
   background: #ff4500 ;
   border-radius: 28px;
-  animation-name: uzedryo;
+  animation-name: uvtgt8g;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -1790,7 +1794,7 @@ body:not(.subscriber) .content {
     background: #ff4500 ;
   }
 }
-@keyframes uzedryo {
+@keyframes uvtgt8g {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -2018,6 +2022,7 @@ body .btn,
 body button,
 body .c-btn,
 body .wiki-page .wiki-page-content .wiki_button,
+body .prev-button a,
 body .next-button a {
   background: #936dfd ;
   color: #ffffff ;
@@ -2037,6 +2042,7 @@ body .next-button a {
 body button,
 body .c-btn,
 body .wiki-page .wiki-page-content .wiki_button,
+body .prev-button a,
 body .next-button a {
     background: #d7dadc ;
   }
@@ -2046,6 +2052,7 @@ body .next-button a {
 body button,
 body .c-btn,
 body .wiki-page .wiki-page-content .wiki_button,
+body .prev-button a,
 body .next-button a {
     color: #1a1a1b ;
   }
@@ -2055,6 +2062,7 @@ body .next-button a {
 body button,
 body .c-btn,
 body .wiki-page .wiki-page-content .wiki_button,
+body .prev-button a,
 body .next-button a {
     border: 1px solid #d7dadc ;
   }
@@ -2063,6 +2071,7 @@ body .btn:active,
 body button:active,
 body .c-btn:active,
 body .wiki-page .wiki-page-content .wiki_button:active,
+body .prev-button a:active,
 body .next-button a:active {
   background: #140147 ;
   color: #d7dadc ;
@@ -2073,6 +2082,7 @@ body .next-button a:active {
 body button:active,
 body .c-btn:active,
 body .wiki-page .wiki-page-content .wiki_button:active,
+body .prev-button a:active,
 body .next-button a:active {
     background: #292c2e ;
   }
@@ -2082,6 +2092,7 @@ body .next-button a:active {
 body button:active,
 body .c-btn:active,
 body .wiki-page .wiki-page-content .wiki_button:active,
+body .prev-button a:active,
 body .next-button a:active {
     border: 1px solid #d7dadc ;
   }
@@ -2090,6 +2101,7 @@ body .btn:hover,
 body button:hover,
 body .c-btn:hover,
 body .wiki-page .wiki-page-content .wiki_button:hover,
+body .prev-button a:hover,
 body .next-button a:hover {
   background: #c9b6fe ;
   color: #ffffff ;
@@ -2100,6 +2112,7 @@ body .next-button a:hover {
 body button:hover,
 body .c-btn:hover,
 body .wiki-page .wiki-page-content .wiki_button:hover,
+body .prev-button a:hover,
 body .next-button a:hover {
     background: #ebedee ;
   }
@@ -2109,6 +2122,7 @@ body .next-button a:hover {
 body button:hover,
 body .c-btn:hover,
 body .wiki-page .wiki-page-content .wiki_button:hover,
+body .prev-button a:hover,
 body .next-button a:hover {
     color: #1a1a1b ;
   }
@@ -2118,6 +2132,7 @@ body .next-button a:hover {
 body button:hover,
 body .c-btn:hover,
 body .wiki-page .wiki-page-content .wiki_button:hover,
+body .prev-button a:hover,
 body .next-button a:hover {
     border: 1px solid #ebedee ;
   }
@@ -2126,8 +2141,13 @@ body .btn:active,
 body button:active,
 body .c-btn:active,
 body .wiki-page .wiki-page-content .wiki_button:active,
+body .prev-button a:active,
 body .next-button a:active {
   margin: 16px 16px 16px 0;
+}
+
+.prev-button a {
+  margin-right: 0 !important;
 }
 
 .crosspost-preview,
@@ -4214,6 +4234,7 @@ body .content .sitetable .link .title a:hover {
 .read-next .read-next-header {
   border-bottom: 1px solid #edf1f3 ;
   color: #98abba ;
+  background-color: #ffffff ;
   padding: 8px 16px;
 }
 @media (prefers-color-scheme: dark) {
@@ -4224,6 +4245,11 @@ body .content .sitetable .link .title a:hover {
 @media (prefers-color-scheme: dark) {
   .read-next .read-next-header {
     color: #828282 ;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .read-next .read-next-header {
+    background-color: #1a1a1b ;
   }
 }
 .read-next .read-next-nav {
@@ -4532,6 +4558,10 @@ select:disabled:hover, select[aria-disabled=true]:hover {
 
 table {
   margin: 16px 0;
+  border-radius: 4px;
+}
+table > * {
+  border-radius: 0px;
 }
 table thead {
   background-color: #4472c4;
