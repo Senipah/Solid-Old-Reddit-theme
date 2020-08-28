@@ -314,12 +314,12 @@ a {
 }
 
 #mail.havemail:before {
-  animation-name: ujynpbl;
+  animation-name: u58rt6l;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes ujynpbl {
+@keyframes u58rt6l {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -626,7 +626,7 @@ a.random.choice {
   }
 }
 #header .tabmenu li a:hover {
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   #header .tabmenu li a:hover {
@@ -857,9 +857,9 @@ body:not(.loggedin) #header-bottom-right {
 }
 .sidebox .morelink a {
   box-sizing: border-box;
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -889,9 +889,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .sidebox .morelink a:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .sidebox .morelink a:active {
@@ -904,9 +904,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .sidebox .morelink a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .sidebox .morelink a:hover {
@@ -1098,9 +1098,9 @@ body:not(.loggedin) #header-bottom-right {
   display: none;
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle, .titlebox .res-fancy-toggle-button.RESshortcutside {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -1134,9 +1134,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle:active, .titlebox .res-fancy-toggle-button.RESshortcutside:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .res-fancy-toggle-button.RESDashboardToggle:active, .titlebox .res-fancy-toggle-button.RESshortcutside:active {
@@ -1149,9 +1149,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle:hover, .titlebox .res-fancy-toggle-button.RESshortcutside:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .res-fancy-toggle-button.RESDashboardToggle:hover, .titlebox .res-fancy-toggle-button.RESshortcutside:hover {
@@ -1169,9 +1169,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove, .titlebox .res-fancy-toggle-button.RESshortcutside.remove {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -1199,9 +1199,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:active, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:active {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:active, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:active {
@@ -1219,9 +1219,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:hover, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:hover, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:hover {
@@ -1242,9 +1242,9 @@ body:not(.loggedin) #header-bottom-right {
   margin: 0;
 }
 .titlebox .fancy-toggle-button .active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -1269,9 +1269,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .fancy-toggle-button .active:active {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .fancy-toggle-button .active:active {
@@ -1289,9 +1289,9 @@ body:not(.loggedin) #header-bottom-right {
   }
 }
 .titlebox .fancy-toggle-button .active:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .fancy-toggle-button .active:hover {
@@ -1321,9 +1321,9 @@ body:not(.loggedin) #header-bottom-right {
 }
 .titlebox .md h3 a,
 .titlebox .md h4 a {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -1358,9 +1358,9 @@ body:not(.loggedin) #header-bottom-right {
 }
 .titlebox .md h3 a:active,
 .titlebox .md h4 a:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .md h3 a:active,
@@ -1376,9 +1376,9 @@ body:not(.loggedin) #header-bottom-right {
 }
 .titlebox .md h3 a:hover,
 .titlebox .md h4 a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .titlebox .md h3 a:hover,
@@ -1780,7 +1780,7 @@ body:not(.subscriber) .content {
   content: " ";
   background: #ff4500 ;
   border-radius: 28px;
-  animation-name: ujynpcl;
+  animation-name: u58rt7b;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -1790,7 +1790,7 @@ body:not(.subscriber) .content {
     background: #ff4500 ;
   }
 }
-@keyframes ujynpcl {
+@keyframes u58rt7b {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -1965,11 +1965,11 @@ body:not(.subscriber) .content {
   }
 }
 .author-tooltip__head a:hover {
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .author-tooltip__head a:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 .author-tooltip__profile-name::after {
@@ -2019,9 +2019,9 @@ body button,
 body .c-btn,
 body .wiki-page .wiki-page-content .wiki_button,
 body .next-button a {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
@@ -2064,9 +2064,9 @@ body button:active,
 body .c-btn:active,
 body .wiki-page .wiki-page-content .wiki_button:active,
 body .next-button a:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   body .btn:active,
@@ -2091,9 +2091,9 @@ body button:hover,
 body .c-btn:hover,
 body .wiki-page .wiki-page-content .wiki_button:hover,
 body .next-button a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   body .btn:hover,
@@ -2440,12 +2440,12 @@ body .next-button a:active {
 }
 
 .link .entry .buttons li a:hover {
-  color: #f50 ;
+  color: #936dfd ;
   text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
   .link .entry .buttons li a:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -2482,13 +2482,13 @@ body .next-button a:active {
 }
 
 .link .entry .buttons li a.comments {
-  color: #f50 ;
+  color: #936dfd ;
   font-weight: 700 !important;
   transition: all 0.25s ease-in-out !important;
 }
 @media (prefers-color-scheme: dark) {
   .link .entry .buttons li a.comments {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 .link .entry li .comments:hover {
@@ -2609,22 +2609,22 @@ body .next-button a:active {
   }
 }
 .comment .flat-list li a:hover {
-  color: #f50 ;
+  color: #936dfd ;
   text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
   .comment .flat-list li a:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 .comment .flat-list li a[onclick*=reply] {
-  color: #f50 ;
+  color: #936dfd ;
   font-weight: 700;
   font-size: 11px;
 }
 @media (prefers-color-scheme: dark) {
   .comment .flat-list li a[onclick*=reply] {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -3006,7 +3006,7 @@ body > .content .link.compressed .midcol {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 1px solid #dadada ;
-  background-color: #f50 ;
+  background-color: #936dfd ;
   color: #292f34 ;
 }
 @media (prefers-color-scheme: dark) {
@@ -3197,7 +3197,7 @@ body .text:hover,
 body textarea:hover,
 body input:hover {
   background-color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   body .crosspost-field:hover,
@@ -3460,7 +3460,7 @@ html .RESDialogSmall {
   }
 }
 html .RESDialogSmall > h3 {
-  color: #f50 ;
+  color: #936dfd ;
   background-color: #ffffff ;
   border-left: 3px solid #c8c6cc ;
   border-bottom: 1px solid #dadada ;
@@ -3470,7 +3470,7 @@ html .RESDialogSmall > h3 {
 }
 @media (prefers-color-scheme: dark) {
   html .RESDialogSmall > h3 {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -3498,11 +3498,11 @@ html .RESCloseButton {
   transition: all 0.15s ease;
 }
 html .RESCloseButton:hover {
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html .RESCloseButton:hover {
-    border: 1px solid #f50 ;
+    border: 1px solid #936dfd ;
   }
 }
 html #userTaggerToolTip input[type=text],
@@ -3524,13 +3524,13 @@ html .toggleButton {
 html .toggleButton .toggleOn {
   border-radius: 0;
   border: 1px solid #4f8ef7;
-  background-color: #f50 ;
+  background-color: #936dfd ;
   color: #ffffff ;
   text-transform: capitalize;
 }
 @media (prefers-color-scheme: dark) {
   html .toggleButton .toggleOn {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -3860,7 +3860,7 @@ html .gearIcon {
   transition: all 0.25s ease;
 }
 html #RESMainGearOverlay {
-  background-color: #f50 ;
+  background-color: #936dfd ;
   top: 0 !important;
   height: 26px !important;
   border-radius: 0 !important;
@@ -3871,7 +3871,7 @@ html #RESMainGearOverlay {
   }
 }
 html .RESDropdownList {
-  border-color: #f50 ;
+  border-color: #936dfd ;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
   margin-top: 4px;
   margin-right: 8px;
@@ -3882,9 +3882,9 @@ html .RESDropdownList {
   }
 }
 html .RESDropdownList li {
-  background-color: #f50 ;
+  background-color: #936dfd ;
   color: #ffffff ;
-  border-color: #f50 ;
+  border-color: #936dfd ;
   transition: all 0.15s ease;
 }
 @media (prefers-color-scheme: dark) {
@@ -3924,7 +3924,7 @@ html .RESDropdownList a:visited {
 html .RESDropdownList li:hover,
 html .RESDropdownList li a:hover {
   color: #ffffff ;
-  background-color: #f50 ;
+  background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html .RESDropdownList li:hover,
@@ -3935,13 +3935,13 @@ html .RESDropdownList li a:hover {
 @media (prefers-color-scheme: dark) {
   html .RESDropdownList li:hover,
 html .RESDropdownList li a:hover {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 html #RESSearchMenuItem {
   border: 1px solid #dadada ;
   border-radius: 1px;
-  background-color: #f50 ;
+  background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html #RESSearchMenuItem {
@@ -3950,15 +3950,15 @@ html #RESSearchMenuItem {
 }
 @media (prefers-color-scheme: dark) {
   html #RESSearchMenuItem {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 html #RESSearchMenuItem:hover {
-  background-color: #f50 ;
+  background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html #RESSearchMenuItem:hover {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 html .toggleButton .toggleOn,
@@ -3971,7 +3971,7 @@ html .moduleToggle.enabled .toggleOff,
 html .toggleButton.enabled .toggleOff {
   background-color: transparent;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   transition: all 0.15s ease;
   border-radius: 4px;
 }
@@ -3987,7 +3987,7 @@ html .moduleToggle.enabled .toggleOn,
 html .toggleButton.enabled .toggleOn,
 html .moduleToggle:not(.enabled) .toggleOff,
 html .toggleButton:not(.enabled) .toggleOff {
-  color: #f50 ;
+  color: #936dfd ;
   border: 1px solid #ffffff ;
   background-color: #ffffff ;
   font-weight: bolder;
@@ -4032,18 +4032,18 @@ html .guider {
   }
 }
 html .guider_content h1 {
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html .guider_content h1 {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 html .guider_button {
   font-size: 11px;
   border: none;
   background-image: none;
-  background-color: #f50 ;
+  background-color: #936dfd ;
   transition: all 0.15s ease;
 }
 @media (prefers-color-scheme: dark) {
@@ -4052,11 +4052,11 @@ html .guider_button {
   }
 }
 html .guider_button:hover {
-  background-color: #f50 ;
+  background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   html .guider_button:hover {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 html .x_button {
@@ -4117,11 +4117,11 @@ html #search #searchexpando label {
 }
 
 body .content .sitetable .link .title a:hover {
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   body .content .sitetable .link .title a:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -4176,12 +4176,12 @@ body .content .sitetable .link .title a:hover {
   }
 }
 .link .domain a:hover {
-  color: #f50 ;
+  color: #936dfd ;
   text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
   .link .domain a:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -4230,7 +4230,7 @@ body .content .sitetable .link .title a:hover {
   top: 8px;
 }
 .read-next .read-next-button {
-  background-color: #f50 ;
+  background-color: #936dfd ;
   color: #ffffff ;
   font: 10px/16px monospace;
   height: 16px;
@@ -4404,18 +4404,18 @@ select:hover {
   border-color: #888;
 }
 select:focus {
-  border-color: #f50 ;
-  box-shadow: 0 0 1px 1px #f50 ;
+  border-color: #936dfd ;
+  box-shadow: 0 0 1px 1px #936dfd ;
   outline: none;
 }
 @media (prefers-color-scheme: dark) {
   select:focus {
-    border-color: #f50 ;
+    border-color: #936dfd ;
   }
 }
 @media (prefers-color-scheme: dark) {
   select:focus {
-    box-shadow: 0 0 1px 1px #f50 ;
+    box-shadow: 0 0 1px 1px #936dfd ;
   }
 }
 select option {
@@ -4430,11 +4430,11 @@ select:disabled, select[aria-disabled=true] {
   }
 }
 select:disabled:hover, select[aria-disabled=true]:hover {
-  border-color: #f50 ;
+  border-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   select:disabled:hover, select[aria-disabled=true]:hover {
-    border-color: #f50 ;
+    border-color: #936dfd ;
   }
 }
 
@@ -4471,11 +4471,11 @@ select:disabled:hover, select[aria-disabled=true]:hover {
   content: " ▼";
 }
 .dropdown.lightdrop .selected:hover {
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .dropdown.lightdrop .selected:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -4924,12 +4924,12 @@ table tbody tr td label {
   }
 }
 .comment .author:hover {
-  color: #f50 ;
+  color: #936dfd ;
   text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
   .comment .author:hover {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -5002,9 +5002,9 @@ body > .content .link .rank,
 .subreddit-rules-page .subreddit-rule-add-form-buttons button,
 .subreddit-rules-page .subreddit-rule-delete-confirmation button,
 .subreddit-rules-page .form-buttons button {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
@@ -5045,9 +5045,9 @@ body > .content .link .rank,
 .subreddit-rules-page .subreddit-rule-add-form-buttons button:active,
 .subreddit-rules-page .subreddit-rule-delete-confirmation button:active,
 .subreddit-rules-page .form-buttons button:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .subreddit-rules-page .subreddit-rule-buttons button:active,
@@ -5069,9 +5069,9 @@ body > .content .link .rank,
 .subreddit-rules-page .subreddit-rule-add-form-buttons button:hover,
 .subreddit-rules-page .subreddit-rule-delete-confirmation button:hover,
 .subreddit-rules-page .form-buttons button:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .subreddit-rules-page .subreddit-rule-buttons button:hover,
@@ -5164,9 +5164,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -5198,9 +5198,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed:active {
@@ -5213,9 +5213,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed:hover {
@@ -5233,9 +5233,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -5262,9 +5262,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:active {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:active {
@@ -5282,9 +5282,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:hover {
@@ -5307,9 +5307,9 @@ body > .content .link .rank,
   padding: 16px;
 }
 .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -5339,9 +5339,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a:active {
@@ -5354,9 +5354,9 @@ body > .content .link .rank,
   }
 }
 .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a:hover {
@@ -5424,9 +5424,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.add {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -5458,9 +5458,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.add:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .combined-search-page .search-result-subreddit .search-subscribe-button .active.add:active {
@@ -5473,9 +5473,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.add:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .combined-search-page .search-result-subreddit .search-subscribe-button .active.add:hover {
@@ -5493,9 +5493,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -5522,9 +5522,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:active {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:active {
@@ -5542,9 +5542,9 @@ body > .content .link .rank,
   }
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:hover {
@@ -5642,7 +5642,7 @@ body > .content .link .rank,
 }
 .combined-search-page #search input[type=text]:hover {
   background-color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .combined-search-page #search input[type=text]:hover {
@@ -5690,13 +5690,13 @@ body > .content .link .rank,
   }
 }
 .linefield .title {
-  color: #f50 ;
+  color: #936dfd ;
   text-transform: capitalize;
   padding: 0;
 }
 @media (prefers-color-scheme: dark) {
   .linefield .title {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 .linefield .linefield-content {
@@ -5891,9 +5891,9 @@ ul.image-preview-list li .description pre {
 }
 
 .content.submit ul.tabmenu li:not(.selected) a {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
@@ -5920,9 +5920,9 @@ ul.image-preview-list li .description pre {
   }
 }
 .content.submit ul.tabmenu li:not(.selected) a:active {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit ul.tabmenu li:not(.selected) a:active {
@@ -5935,9 +5935,9 @@ ul.image-preview-list li .description pre {
   }
 }
 .content.submit ul.tabmenu li:not(.selected) a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit ul.tabmenu li:not(.selected) a:hover {
@@ -5958,9 +5958,9 @@ ul.image-preview-list li .description pre {
   margin: 16px 16px 16px 0;
 }
 .content.submit ul.tabmenu li.selected a {
-  background: #331100 ;
+  background: #140147 ;
   color: #d7dadc ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
@@ -5982,9 +5982,9 @@ ul.image-preview-list li .description pre {
   }
 }
 .content.submit ul.tabmenu li.selected a:active {
-  background: #f50 ;
+  background: #936dfd ;
   color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit ul.tabmenu li.selected a:active {
@@ -6002,9 +6002,9 @@ ul.image-preview-list li .description pre {
   }
 }
 .content.submit ul.tabmenu li.selected a:hover {
-  background: #ffaa80 ;
+  background: #c9b6fe ;
   color: #ffffff ;
-  border: 1px solid #ffaa80 ;
+  border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit ul.tabmenu li.selected a:hover {
@@ -6082,7 +6082,7 @@ ul.image-preview-list li .description pre {
 }
 .content.submit .formtabs-content #newlink-with-image-upload .image-upload-drop-target:hover {
   background-color: #ffffff ;
-  border: 1px solid #f50 ;
+  border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit .formtabs-content #newlink-with-image-upload .image-upload-drop-target:hover {
@@ -6098,18 +6098,18 @@ ul.image-preview-list li .description pre {
   padding-right: 16px;
   font-size: 14px;
   line-height: 36px;
-  background-color: #f50 ;
+  background-color: #936dfd ;
   color: #d7dadc ;
-  border-color: #f50 ;
+  border-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .content.submit .formtabs-content #newlink-with-image-upload .file-upload-button {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 @media (prefers-color-scheme: dark) {
   .content.submit .formtabs-content #newlink-with-image-upload .file-upload-button {
-    border-color: #f50 ;
+    border-color: #936dfd ;
   }
 }
 .content.submit .info-notice,
@@ -6144,11 +6144,11 @@ ul.image-preview-list li .description pre {
 
 .submit_text h1 span {
   text-transform: uppercase;
-  color: #f50 ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .submit_text h1 span {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 
@@ -6190,17 +6190,17 @@ ul.image-preview-list li .description pre {
 }
 .wiki-page .pageactions .wikiaction-current {
   padding: 10px 16px 9px;
-  border-bottom: 2px solid #f50 ;
-  color: #f50 ;
+  border-bottom: 2px solid #936dfd ;
+  color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .wiki-page .pageactions .wikiaction-current {
-    border-bottom: 2px solid #f50 ;
+    border-bottom: 2px solid #936dfd ;
   }
 }
 @media (prefers-color-scheme: dark) {
   .wiki-page .pageactions .wikiaction-current {
-    color: #f50 ;
+    color: #936dfd ;
   }
 }
 .wiki-page .pageactions .wikiaction:hover,
@@ -6297,11 +6297,11 @@ ul.image-preview-list li .description pre {
 }
 
 .side .titlebox h1.redditname:before {
-  background-color: #f50 ;
+  background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
   .side .titlebox h1.redditname:before {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 
@@ -6490,7 +6490,7 @@ body.comments-page .side {
   display: block;
   height: 50px;
   width: 100%;
-  background-color: #f50 ;
+  background-color: #936dfd ;
   background-image: url(%%title%%);
   background-repeat: no-repeat;
   background-position: center;
@@ -6499,7 +6499,7 @@ body.comments-page .side {
 }
 @media (prefers-color-scheme: dark) {
   .side .titlebox h1.redditname a {
-    background-color: #f50 ;
+    background-color: #936dfd ;
   }
 }
 
@@ -6549,6 +6549,52 @@ body:not(.subscriber) div.multi-selector.hover-bubble.anchor-right {
   right: calc(100vw - 766px);
   left: 561px;
   margin-top: -40px;
+}
+
+/* Custom Header */
+#header .pagename {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+}
+#header .pagename a {
+  position: relative;
+  left: calc(50% - 32.5px);
+  width: 65px;
+  height: 65px;
+  background-size: cover;
+  top: -15px;
+}
+#header .pagename a:hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
+}
+
+.flair-inrupter {
+  background-color: #936dfd;
+  color: #d7dadc ;
+}
+
+.side h3:nth-child(3) > a {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.side ol:nth-of-type(1) {
+  border: 1px solid #936dfd ;
+  border-top: none !important;
+  margin-top: -10px;
+  margin-bottom: 16px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 0.5rem 24px 0 24px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0px 1px 1px rgba(128, 128, 128, 0.27);
+  font-weight: bold;
+}
+@media (prefers-color-scheme: dark) {
+  .side ol:nth-of-type(1) {
+    border: 1px solid #d7dadc ;
+  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
