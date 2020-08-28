@@ -1,0 +1,12 @@
+@use '../../abstracts/mixins' as v;
+
+// don't forget to update the _sidebar-filterbyflair.scss file if you're using that extension...
+
+//Custom post-flair formatting
+
+.flair-inrupter {
+  background-color: v.getColor("linkflair", "inrupter");
+  @include v.theme("color", v.$lightText);
+}
+
+//End Custom post-flair formatting
