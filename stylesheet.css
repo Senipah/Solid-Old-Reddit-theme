@@ -314,12 +314,12 @@ a {
 }
 
 #mail.havemail:before {
-  animation-name: up2buj6;
+  animation-name: uzedrxr;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes up2buj6 {
+@keyframes uzedrxr {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -1780,7 +1780,7 @@ body:not(.subscriber) .content {
   content: " ";
   background: #ff4500 ;
   border-radius: 28px;
-  animation-name: up2bujs;
+  animation-name: uzedryo;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -1790,7 +1790,7 @@ body:not(.subscriber) .content {
     background: #ff4500 ;
   }
 }
-@keyframes up2bujs {
+@keyframes uzedryo {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -6496,6 +6496,10 @@ body.comments-page .side {
   background-size: contain;
   background-repeat: no-repeat;
   text-indent: -9999px;
+}
+#header .pagename a:hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
 }
 
 .side .titlebox h1.redditname a {
