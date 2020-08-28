@@ -1,0 +1,9 @@
+/* Custom Header */
+#header .pagename {
+  a {
+    &:hover {
+      transform: rotate(360deg);
+      transition: transform 0.5s ease;
+    }
+  }
+}
