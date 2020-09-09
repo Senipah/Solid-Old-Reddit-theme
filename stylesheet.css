@@ -251,12 +251,12 @@ a {
 }
 
 #mail.havemail:before {
-  animation-name: u228mf8;
+  animation-name: uunw5hf;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes u228mf8 {
+@keyframes uunw5hf {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -4188,20 +4188,24 @@ html #tb-context-menu * {
   border-radius: 0;
   color: #696969 !important;
 }
-html .tb-general-button *,
-html .tb-bracket-button *,
-html .tb-jsapi-container .tb-action-details *,
-html .tb-jsapi-author-container * {
+html .tb-general-button,
+html .tb-bracket-button,
+html .tb-jsapi-container .tb-action-details,
+html .tb-jsapi-author-container {
   border-radius: 0;
   color: #292f34 !important;
 }
 @media (prefers-color-scheme: dark) {
-  html .tb-general-button *,
-html .tb-bracket-button *,
-html .tb-jsapi-container .tb-action-details *,
-html .tb-jsapi-author-container * {
+  html .tb-general-button,
+html .tb-bracket-button,
+html .tb-jsapi-container .tb-action-details,
+html .tb-jsapi-author-container {
     color: #d7dadc !important;
   }
+}
+html .tb-jsapi-container th,
+html .tb-jsapi-container td {
+  color: #696969 !important;
 }
 html .tb-config-usernote-types thead th {
   color: #d7dadc ;
