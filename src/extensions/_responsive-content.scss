@@ -1,12 +1,8 @@
 @use '../abstracts/mixins' as v;
 
-// TODO: Make work with subscription prompt.
-
-// TODO: Make work with "Submissions Restricted"
-
 $_search-height: 58px;
 $_element-count: 3;
-$_breakpoint: "extra-large";
+$_breakpoint: "large";
 
 // IE11 doesnt support nested calcs.
 // sass interpolation strips meaningful whitespace
@@ -54,13 +50,13 @@ $_submit-text-left-large: calc(
 );
 
 body {
-  // lol fuck it - cannot get this to work
-  // #sr-header-area .drop-choices.inuse {
-  //   position: relative;
-  //   z-index: 10000000 !important;
-  // }
+  // setting the header z-index fixes a stacking issue with the subreddits dropdown being
+  // hidden by the search form.
+  #header {
+    position: relative;
+    z-index: 100;
+  }
 
-  // only on comments, front and wiki pages
   &.wiki-page,
   &.comments-page,
   &.listing-page {
@@ -70,6 +66,7 @@ body {
           v.$container-margin-vert * 2;
       }
       .side {
+        margin-top: v.$subscription-prompt-height + v.$container-margin-vert;
         .sidebox.submit,
         #search {
           top: v.$header-height + v.$container-margin-vert +
@@ -134,18 +131,20 @@ body {
           }
 
           &[type="submit"] {
-            height: 32px;
-            width: 32px;
-            margin-left: -38px;
-            background: v.getImage("spritesheet") -64px -97px no-repeat;
-            border: none !important;
-            border-radius: 16px;
-            transition: background 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 13px;
+            padding: 2px 6px 3px;
+            // height: 32px;
+            // width: 32px;
+            // margin-left: -38px;
+            // // background: v.getImage("spritesheet") -64px -97px no-repeat;
+            // border: none !important;
+            // border-radius: 16px;
+            // transition: background 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
-            &:hover {
-              background: rgba(158, 158, 158, 0.2) v.getImage("spritesheet") -64px -97px
-                no-repeat;
-            }
+            // &:hover {
+            //   background: rgba(158, 158, 158, 0.2) v.getImage("spritesheet") -64px -97px
+            //     no-repeat;
+            // }
           }
         }
 

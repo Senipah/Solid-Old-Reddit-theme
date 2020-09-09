@@ -7,7 +7,6 @@
     width: 100%;
     text-align: center;
     @include v.theme("color", v.$bodyText);
-    font: 18px/24px Lato, Arial, sans-serif;
     margin-bottom: 8px;
   }
   .tagline {
@@ -69,14 +68,14 @@
       font-style: italic;
       cursor: text;
 
-      &:before {
-        content: "";
-        width: 16px;
-        height: 9px;
-        display: inline-block;
-        margin-right: 8px;
-        background: v.getImage("spritesheet") -64px -36px;
-      }
+      // &:before {
+      //   content: "";
+      //   width: 16px;
+      //   height: 9px;
+      //   display: inline-block;
+      //   margin-right: 8px;
+      //   background: v.getImage("spritesheet") -64px -36px;
+      // }
 
       &:after {
         content: " " + v.$users;

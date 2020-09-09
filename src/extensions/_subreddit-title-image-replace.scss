@@ -12,11 +12,12 @@ $_hdr-img-width: 65px;
     position: absolute;
     width: 100vw;
     left: 0;
+    visibility: hidden;
     a {
+      visibility: visible;
       height: 65px;
       width: $_hdr-img-width;
       position: relative;
-      top: -15px;
       left: calc(50% - #{$_hdr-img-width / 2});
       background-image: v.getImage("title");
       background-size: contain;
