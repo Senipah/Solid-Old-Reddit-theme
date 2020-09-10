@@ -251,12 +251,12 @@ a {
 }
 
 #mail.havemail:before {
-  animation-name: u4quofw;
+  animation-name: uhk4j4o;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes u4quofw {
+@keyframes uhk4j4o {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -1585,7 +1585,7 @@ body:not(.subscriber) .content {
   content: " ";
   background: #ff4500 ;
   border-radius: 28px;
-  animation-name: u4quog1;
+  animation-name: uhk4j5f;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -1595,7 +1595,7 @@ body:not(.subscriber) .content {
     background: #ff4500 ;
   }
 }
-@keyframes u4quog1 {
+@keyframes uhk4j5f {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -6145,6 +6145,9 @@ body.wiki-page .side .sidebox.submit.disabled, body.wiki-page .side .sidebox.sub
   body.wiki-page .side .sidebox.submit.disabled, body.wiki-page .side .sidebox.submit-text, body.comments-page .side .sidebox.submit.disabled, body.comments-page .side .sidebox.submit-text, body.listing-page .side .sidebox.submit.disabled, body.listing-page .side .sidebox.submit-text {
     left: calc( ( (100vw - 416px) / 3 ) * 2 - (16px * 3 * -1) );
   }
+}
+body.comments-page:not(.subscriber) .side #login_login-main {
+  margin-top: 128px;
 }
 body.comments-page .side {
   margin-top: 118px;
