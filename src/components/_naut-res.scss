@@ -33,6 +33,13 @@ html {
     @include v.theme("background-color", v.$body);
   }
 
+  .res-filterline {
+    border-radius: 0px;
+  }
+  .res-filterline-filter-hiding {
+    @include v.theme("color", v.$inactiveText);
+  }
+
   .RESHover,
   #srList {
     @include v.thing(true);
@@ -461,7 +468,7 @@ html {
 
   .res {
     .srSep {
-      @include v.theme("color", v.$separator);
+      @include v.theme("color", v.$bodyText);
     }
 
     #RESShortcutsViewport {
