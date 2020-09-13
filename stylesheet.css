@@ -284,12 +284,12 @@ a {
   -webkit-transform: translateY(112px);
   transform: translateY(112px);
   transition: background 0.25s ease, box-shadow 0.25s ease;
-  animation-name: u97n12i;
+  animation-name: uley9co;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes u97n12i {
+@keyframes uley9co {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -465,19 +465,7 @@ a.random.choice {
   visibility: visible;
 }
 #sr-header-area .drop-choices a.choice {
-  border: 0;
-  color: #777;
   padding: 3px 12px;
-  transition: none;
-}
-#sr-header-area .drop-choices a.choice:hover {
-  background: #edeff1 ;
-  color: #222;
-}
-@media (prefers-color-scheme: dark) {
-  #sr-header-area .drop-choices a.choice:hover {
-    background: #030303 ;
-  }
 }
 
 #header-bottom-left {
@@ -1580,7 +1568,6 @@ body:not(.subscriber) .content {
 
 .link .midcol {
   width: 32px !important;
-  margin: 0 16px 0 0;
   overflow: visible;
   height: 56px;
 }
@@ -1629,7 +1616,7 @@ body:not(.subscriber) .content {
   content: " ";
   background: #ff4500 ;
   border-radius: 28px;
-  animation-name: u97n12y;
+  animation-name: uley9db;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
@@ -1639,7 +1626,7 @@ body:not(.subscriber) .content {
     background: #ff4500 ;
   }
 }
-@keyframes u97n12y {
+@keyframes uley9db {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -3025,7 +3012,7 @@ body > .content .link.compressed .midcol {
 .reddit-infobar.with-icon.locked-infobar {
   background: #27b062;
 }
-.reddit-infobar.with-icon.locked-infobar .md {
+.reddit-infobar.with-icon.locked-infobar .md p {
   color: #d7dadc ;
 }
 .reddit-infobar.with-icon.locked-infobar p:after {
@@ -3826,7 +3813,7 @@ html .x_button {
 html .x_button:hover {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
-html .drop-choices a.choice {
+html .res-nightmode .drop-choices a.choice {
   color: #d7dadc !important;
 }
 html .comment .score {
@@ -4414,7 +4401,37 @@ html .tb-jsapi-container *,
 html .tb-page-overlay *,
 html #tb-context-menu * {
   border-radius: 0;
-  color: #696969 !important;
+  color: #696969;
+}
+html .tb-popup * select,
+html .tb-popup * textarea,
+html .tb-popup * input,
+html .tb-jsapi-container * select,
+html .tb-jsapi-container * textarea,
+html .tb-jsapi-container * input,
+html .tb-page-overlay * select,
+html .tb-page-overlay * textarea,
+html .tb-page-overlay * input,
+html #tb-context-menu * select,
+html #tb-context-menu * textarea,
+html #tb-context-menu * input {
+  color: #292f34 ;
+}
+@media (prefers-color-scheme: dark) {
+  html .tb-popup * select,
+html .tb-popup * textarea,
+html .tb-popup * input,
+html .tb-jsapi-container * select,
+html .tb-jsapi-container * textarea,
+html .tb-jsapi-container * input,
+html .tb-page-overlay * select,
+html .tb-page-overlay * textarea,
+html .tb-page-overlay * input,
+html #tb-context-menu * select,
+html #tb-context-menu * textarea,
+html #tb-context-menu * input {
+    color: #d7dadc ;
+  }
 }
 html .tb-general-button,
 html .tb-bracket-button,
