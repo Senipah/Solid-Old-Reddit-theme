@@ -12,6 +12,7 @@ body {
   border-radius: 0;
   margin: 0;
   position: relative;
+  border-left: 4px solid transparent;
 }
 
 // Link Objects - From Left to Right
@@ -24,15 +25,16 @@ body > .content .link .rank,
 // Sticky Post
 
 .thing.link.stickied {
+  border-left: 4px solid v.getColor("moderator");
   a.title,
   li a,
   .entry li .comments {
-    color: v.$moderator !important;
+    color: v.getColor("moderator") !important;
   }
 
   .expando-button:hover {
-    background-color: v.$moderator !important;
-    border-color: v.$moderator !important;
+    background-color: v.getColor("moderator") !important;
+    border-color: v.getColor("moderator") !important;
   }
 }
 

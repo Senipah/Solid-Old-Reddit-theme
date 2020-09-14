@@ -75,7 +75,7 @@
 }
 
 .reddit-infobar.gold-accent {
-  background: v.$gold;
+  background: v.getColor("gold");
   margin: 16px 16px 0;
   border: none;
   padding: 0 8px;
@@ -114,15 +114,15 @@
     margin-left: 20px;
   }
 
-  .midcol {
-    width: 24px;
-    margin-right: 0;
+  // .midcol {
+  //   width: 24px;
+  //   margin-right: 0;
 
-    .arrow {
-      margin-left: 0;
-      margin-bottom: 4px;
-    }
-  }
+  //   .arrow {
+  //     margin-left: 0;
+  //     margin-bottom: 4px;
+  //   }
+  // }
 
   .entry .tagline {
     @include v.theme("color", v.$secondary-text);
@@ -176,7 +176,7 @@
 .stickied.comment {
   > .entry a,
   .tagline .stickied-tagline {
-    color: v.$moderator;
+    color: v.getColor("moderator");
   }
 }
 
