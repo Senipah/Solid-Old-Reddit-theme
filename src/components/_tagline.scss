@@ -3,12 +3,13 @@
 .res .thing .tagline,
 .thing .tagline,
 .link .entry .tagline {
+  margin-top: 2px;
   .score {
     @include v.theme("color", v.$bodyText);
   }
   .author {
     margin-top: 3px;
-    @include v.theme("color", v.$bodyText);
+    @include v.theme("color", v.$linkText);
     padding: 1px 4px;
     border-radius: v.$radius;
     font-size: 12px;

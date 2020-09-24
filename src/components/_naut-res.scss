@@ -1,6 +1,10 @@
 @use '../abstracts/mixins' as v;
 
 html {
+  .RESUserTag {
+    @include v.theme("color", v.$bodyText);
+  }
+
   div.res-search-options.res-search-pane.res-search-pane-open {
     @include v.theme("background-color", v.$body, $important: true);
   }
@@ -343,20 +347,6 @@ html {
       &:hover {
         max-width: 100%;
       }
-    }
-
-    .content .RESBigEditorPop {
-      // background-color: rgba(0, 0, 0, 0);
-      // line-height: inherit;
-      // font: 11px Lato, Arial, sans-serif;
-      // box-shadow: none;
-      // font-weight: 400;
-      @include v.theme("color", v.$secondary-text);
-      // border: none;
-      // padding: 0;
-      // height: inherit;
-      // margin-left: 4px;
-      // margin-top: 5px;
     }
   }
 
