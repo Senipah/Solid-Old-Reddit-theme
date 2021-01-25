@@ -27,9 +27,10 @@ $_selected-underline-size: 2px;
     a {
       margin: 0 16px;
       padding: 0;
-      text-transform: uppercase;
+      text-transform: capitalize;
       @include v.theme("color", v.$metaText);
-      font-weight: normal;
+      font-weight: 600;
+      font-size: 16px;
       line-height: v.$tabmenu-height - $_selected-underline-size;
       display: inline-block;
 
@@ -44,16 +45,14 @@ $_selected-underline-size: 2px;
 
     &.selected a {
       font-weight: bold;
-      @include v.theme("color", v.$primary);
+      @include v.theme("color", v.$button);
       border-bottom: $_selected-underline-size solid;
       border-radius: 0;
-      @media (prefers-color-scheme: dark) {
-        color: #fff;
-      }
     }
   }
 }
 
+// Hide controversial and ads tabs
 .listing-page .tabmenu li > a[href$="/controversial/"],
 .wiki-page .tabmenu li > a[href$="/controversial/"],
 .listing-page .tabmenu li > a[href$="/ads/"],
