@@ -54,12 +54,24 @@
   padding: 0;
 }
 
-// Spam Comment
-
 .comment {
+  padding-left: 8px;
+  margin-top: 5px;
+  .midcol {
+    margin-left: 10px;
+  }
+
+  .child {
+    margin-left: 22px;
+  }
+
+  // Spam Comment
   &.spam > .child {
+    // padding-left: 0;
+    // margin-left: 22px;
     padding-left: 0;
-    margin-left: 16px;
+    margin-left: 22px;
+    background-color: inherit;
   }
 
   .flat-list li a {
