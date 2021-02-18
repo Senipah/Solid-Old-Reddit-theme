@@ -41,8 +41,6 @@
   }
 
   .res-fancy-toggle-button {
-    display: inline-block;
-    vertical-align: middle;
     &.RESDashboardToggle,
     &.RESshortcutside {
       @include v.button(false, true);
@@ -53,6 +51,7 @@
       font-size: 11px;
       &.remove {
         @include v.button(true, true);
+        margin: v.$padding 5px 0 0;
         max-width: 33%;
         padding: 0;
         padding: 0 8px;
@@ -62,8 +61,6 @@
   }
 
   .fancy-toggle-button {
-    display: inline-block;
-    vertical-align: middle;
     margin: 0;
     .active {
       @include v.button(true, true);
