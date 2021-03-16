@@ -5,7 +5,20 @@
   margin-top: 60px;
   height: 180px;
   @include v.theme("border-top", v.$body, false, true, "50px solid");
-  background: v.getImage("footer") 50% (0 / cover) no-repeat;
+  @include v.theme("background-color", v.$banner-backgroundColor);
+  @if v.$themed-hdr-footer-img {
+    // use if different images for light and dark
+    @include v.colorSchemeQuery(
+      "background-image",
+      v.getImage("footer"),
+      v.getImage("footer-dark")
+    );
+  } @else {
+    // use if single header image for light and dark
+    background-image: v.getImage("footer");
+  }
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 65px 200px 40px;
 }
 

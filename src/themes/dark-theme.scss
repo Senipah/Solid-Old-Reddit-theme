@@ -5,7 +5,7 @@ $_primary: #936dfd;
 $theme: (
   "actionIcon": #818384,
   "active": $_primary,
-  "banner-backgroundColor": $_primary,
+  "banner-backgroundColor": #1a1a1b,
   "body": #1a1a1b,
   "bodySecondary": #272727,
   "bodyFade": lighten(#1a1a1b, 7%),
@@ -39,7 +39,6 @@ $theme: (
   "primary": $_primary,
   "secondary-text": #828282,
   "separator": #343536,
-  "sr-header": #1a1a1b,
   "titleText": #d7dadc,
   "widgetColors-sidebarWidgetBorderColor": #474748,
   "widgetColors-sidebarWidgetTextColor": #d7dadc,

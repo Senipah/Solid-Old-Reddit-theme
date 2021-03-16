@@ -26,6 +26,7 @@ $_img-margin-top: (v.$header-inner-height - $_hdr-img-height) / 2;
       background-image: v.getImage("title");
       background-size: contain;
       background-repeat: no-repeat;
+      background-position: center;
       text-indent: -9999px;
       &:hover {
         transform: rotate(360deg);
