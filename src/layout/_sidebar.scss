@@ -10,7 +10,7 @@ body {
     padding: 0;
     background: none;
     width: v.$sidebar-width;
-
+    border-radius: v.$radius;
     .flair:before {
       margin-left: 0;
     }

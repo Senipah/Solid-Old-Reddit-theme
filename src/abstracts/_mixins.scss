@@ -228,7 +228,6 @@ $_breakpoints: (
 @mixin thing($border: false, $forceDark: false) {
   @include theme("background-color", v.$body, $forceDark);
   @include theme("color", v.$bodyText, $forceDark);
-  border-radius: v.$radius;
   @if $border {
     border: 1px solid;
   }
