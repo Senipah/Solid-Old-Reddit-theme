@@ -87,13 +87,21 @@ a {
   position: relative;
   margin-top: 60px;
   height: 180px;
-  border-top: 50px solid #ffffff ;
-  background: url(%%footer%%) 50% 0/cover no-repeat;
+  border-top: 50px solid white ;
+  background-color: #936dfd ;
+  background-image: url(%%footer%%);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 65px 200px 40px;
 }
 @media (prefers-color-scheme: dark) {
   .footer-parent {
     border-top: 50px solid #1a1a1b ;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .footer-parent {
+    background-color: #1a1a1b ;
   }
 }
 
@@ -162,7 +170,7 @@ a {
   overflow: hidden;
   min-width: 100%;
   max-height: 0;
-  background: #ffffff ;
+  background: white ;
   text-transform: capitalize;
   transition: 0.5s;
 }
@@ -207,9 +215,8 @@ a {
   }
 }
 .footer.rounded .col:hover {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
 }
 @media (prefers-color-scheme: dark) {
@@ -269,12 +276,12 @@ a {
   -webkit-transform: translateY(112px);
   transform: translateY(112px);
   transition: background 0.25s ease, box-shadow 0.25s ease;
-  animation-name: u2p4znl;
+  animation-name: uckfggc;
   animation-duration: 8s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-@keyframes u2p4znl {
+@keyframes uckfggc {
   0% {
     transform: translateY(76px);
     opacity: 0;
@@ -319,8 +326,40 @@ a {
   z-index: 0;
 }
 
+#header-img.default-header {
+  margin-top: 11px;
+  margin-left: 24px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background-image: url(%%roundel-wink-sprite%%);
+  background-position: 0 0;
+  vertical-align: top;
+  font-size: 0;
+  text-indent: unset;
+}
+#header-img.default-header::after {
+  position: relative;
+  width: 84px;
+  height: 27px;
+  left: 50px;
+  top: 11px;
+  content: "";
+  background-image: url(%%reddit-text-with-shadow%%);
+  display: inline-block;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+  transform-origin: left;
+}
+#header-img.default-header:hover {
+  background-position: -50px 0;
+}
+#header-img.default-header:hover::after {
+  transform: scaleX(1);
+}
+
 #sr-header-area {
-  background: #ffffff ;
+  background: white ;
   border: none;
   border-radius: 0px;
   transition: all 0.15s ease;
@@ -429,7 +468,7 @@ a.random.choice {
   text-decoration: none;
 }
 #sr-header-area .drop-choices {
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   #sr-header-area .drop-choices {
@@ -469,7 +508,7 @@ a.random.choice {
   line-height: 40px;
   border: none;
   width: 100%;
-  background: #ffffff ;
+  background: white ;
   padding: 0 24px;
 }
 @media (prefers-color-scheme: dark) {
@@ -573,7 +612,7 @@ a.random.choice {
 html .res-navTop #header-bottom-right,
 #header-bottom-right {
   z-index: 101;
-  background: #ffffff ;
+  background: white ;
   bottom: auto;
   border-radius: 0;
   border-bottom-left-radius: 4px;
@@ -591,8 +630,10 @@ html .res-navTop #header-bottom-right,
   height: 136px;
   border: none;
   border-radius: 0px;
-  background-color: #ffffff ;
-  background: url(%%headerimg%%) 50% 50%/cover no-repeat;
+  background-color: #936dfd ;
+  background-image: url(%%headerimg%%);
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: 1;
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12);
 }
@@ -623,28 +664,13 @@ html .res-navTop #header-bottom-right,
   }
 }
 
-#header-img.default-header {
-  margin-top: 16px;
-  margin-left: 24px;
-  z-index: 99;
-  width: 42px;
-  height: 40px;
-  background-image: url(%%snoo-sprite%%);
-  background-position: 0 0;
-  vertical-align: top;
-  font-size: 0;
-}
-#header-img.default-header:hover {
-  background-position: -42px 0;
-}
-
 .account-activity-box a {
   text-transform: uppercase;
 }
 
 .side .titlebox .tagline a.flairselectbtn,
 .leavemoderator a {
-  background: #ffffff ;
+  background: white ;
   color: #98abba ;
   padding: 2px 8px;
   position: absolute;
@@ -677,7 +703,7 @@ html .res-navTop #header-bottom-right,
 
 .login-form-side {
   border: none;
-  border-bottom: 1px solid #ccc ;
+  border-bottom: 1px solid #cccccc ;
   padding-bottom: 8px;
 }
 @media (prefers-color-scheme: dark) {
@@ -762,14 +788,13 @@ html .res-navTop #header-bottom-right,
 .sidebox .morelink a {
   box-sizing: border-box;
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -809,7 +834,7 @@ html .res-navTop #header-bottom-right,
 }
 .sidebox .morelink a:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -874,7 +899,7 @@ html .res-navTop #header-bottom-right,
   background: #e6e6e6 ;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6), inset 0 1px 1px rgba(0, 0, 0, 0.2) ;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.6), 1px 1px 1px rgba(0, 0, 0, 0.2) ;
-  border-radius: 4px;
+  border-radius: 30px;
   margin-top: 8px;
 }
 @media (prefers-color-scheme: dark) {
@@ -993,9 +1018,8 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox form.toggle,
 .titlebox .leavemoderator {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1018,14 +1042,13 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle, .titlebox .res-fancy-toggle-button.RESshortcutside {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -1069,7 +1092,7 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle:hover, .titlebox .res-fancy-toggle-button.RESshortcutside:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1096,7 +1119,6 @@ html .res-navTop #header-bottom-right,
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -1120,7 +1142,7 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:active, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:active {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1140,7 +1162,7 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .res-fancy-toggle-button.RESDashboardToggle.remove:hover, .titlebox .res-fancy-toggle-button.RESshortcutside.remove:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1170,7 +1192,6 @@ html .res-navTop #header-bottom-right,
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -1190,7 +1211,7 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .fancy-toggle-button .active:active {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1210,7 +1231,7 @@ html .res-navTop #header-bottom-right,
 }
 .titlebox .fancy-toggle-button .active:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1242,14 +1263,13 @@ html .res-navTop #header-bottom-right,
 .titlebox .md h3 a,
 .titlebox .md h4 a {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -1297,7 +1317,7 @@ html .res-navTop #header-bottom-right,
 .titlebox .md h3 a:hover,
 .titlebox .md h4 a:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1320,9 +1340,8 @@ html .res-navTop #header-bottom-right,
 }
 
 #search {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
   width: 320px;
   z-index: 1;
@@ -1382,6 +1401,7 @@ body .side {
   padding: 0;
   background: none;
   width: 320px;
+  border-radius: 30px;
 }
 body .side .flair:before {
   margin-left: 0;
@@ -1410,7 +1430,7 @@ body:not(.subscriber) .side {
   padding: 16px;
   width: 320px;
   height: 98px;
-  background: #ffffff ;
+  background: white ;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   border: none;
   color: #98abba ;
@@ -1485,15 +1505,15 @@ body:not(.subscriber) .side {
 }
 
 body div.content {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   margin: 20px 24px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   padding: 16px;
   margin-right: 360px;
+  border-radius: 4px;
 }
 @media (prefers-color-scheme: dark) {
   body div.content {
@@ -1542,9 +1562,8 @@ body:not(.subscriber) .content {
 }
 
 .link.promotedlink.promoted {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -1577,9 +1596,8 @@ body:not(.subscriber) .content {
 }
 
 .organic-listing {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
   padding: 0;
   position: relative;
@@ -1603,7 +1621,7 @@ body:not(.subscriber) .content {
 }
 .organic-listing .link {
   padding: 16px;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .organic-listing .link {
@@ -1612,7 +1630,7 @@ body:not(.subscriber) .content {
 }
 .organic-listing .link.compressed, .organic-listing .link.promotedlink {
   padding: 16px;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .organic-listing .link.compressed, .organic-listing .link.promotedlink {
@@ -1673,12 +1691,12 @@ body:not(.subscriber) .content {
   content: " ";
   background-color: #ff4500;
   border-radius: 28px;
-  animation-name: u2p4zny;
+  animation-name: uckfgh0;
   animation-duration: 0.35s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
-@keyframes u2p4zny {
+@keyframes uckfgh0 {
   0% {
     transform: scale(0, 0);
     opacity: 1;
@@ -1714,8 +1732,8 @@ body:not(.subscriber) .content {
   left: 24px;
   top: -4px;
   background: #7193ff;
-  color: #ffffff ;
-  border-radius: 4px;
+  color: white ;
+  border-radius: 30px;
   content: "Consider posting constructive criticism or an explanation when you downvote something.";
   transform: scaleX(0);
   transition: transform 0.5s ease;
@@ -1747,9 +1765,8 @@ body:not(.subscriber) .content {
 }
 
 .author-tooltip {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
 }
@@ -1799,9 +1816,8 @@ body:not(.subscriber) .content {
   }
 }
 .author-tooltip__head {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
 }
 @media (prefers-color-scheme: dark) {
@@ -1893,12 +1909,11 @@ body .prev-button a,
 body .next-button a,
 body input[type=submit] {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -1979,7 +1994,7 @@ body .prev-button a:hover,
 body .next-button a:hover,
 body input[type=submit]:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -2057,9 +2072,8 @@ body input[type=submit]:active {
 .search-result-listing + .search-result-listing .contents,
 .link .usertext-body .md,
 [class] .searchfacets {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -2152,9 +2166,8 @@ body input[type=submit]:active {
 
 .usertext.border .usertext-body,
 .thing {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   padding: 16px;
@@ -2184,9 +2197,8 @@ body input[type=submit]:active {
 .backup-codes-modal .modal-content,
 .tfa-verify-email-modal .modal-content,
 .disable-tfa-modal .modal-content {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -2222,9 +2234,8 @@ body input[type=submit]:active {
 
 .crossposting-modal #cross_post .crosspost-description,
 .crossposting-modal #cross_post .crosspost-thing-preview {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -2261,7 +2272,7 @@ body input[type=submit]:active {
 }
 
 #autocomplete_dropdown {
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   #autocomplete_dropdown {
@@ -2277,7 +2288,7 @@ body input[type=submit]:active {
 .usertext.border .md pre,
 .md code,
 .md pre {
-  background: #ffffff ;
+  background: white ;
   color: #616161 ;
   border: 2px solid #007acc ;
   font-family: Consolas, "Lucida Console", "DejaVu Sans Mono", monospace;
@@ -2452,7 +2463,7 @@ body input[type=submit]:active {
   top: -1px;
   padding: 2px 3px;
   background: #f44336;
-  color: #ffffff ;
+  color: white ;
   cursor: help;
 }
 @media (prefers-color-scheme: dark) {
@@ -2648,7 +2659,7 @@ html .nestedlisting .comment .comment .comment,
 html .nestedlisting .comment .comment .comment .comment .comment,
 html .nestedlisting .comment .comment .comment .comment .comment .comment .comment,
 html .nestedlisting .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-  background-color: #ffffff !important;
+  background-color: white !important;
 }
 @media (prefers-color-scheme: dark) {
   html .nestedlisting .comment .comment .comment,
@@ -2823,7 +2834,7 @@ body > .content .link.compressed .midcol {
 .expando-button:before,
 .expando-button:after {
   position: relative !important;
-  border-radius: 4px;
+  border-radius: 30px;
   display: flex;
   width: 80%;
   margin-left: 10%;
@@ -3016,7 +3027,7 @@ body > .content .link.compressed .midcol {
 
 .hover-bubble {
   color: #292f34 ;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .hover-bubble {
@@ -3030,7 +3041,7 @@ body > .content .link.compressed .midcol {
 }
 .hover-bubble.multi-selector strong {
   color: #292f34 ;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .hover-bubble.multi-selector strong {
@@ -3044,7 +3055,7 @@ body > .content .link.compressed .midcol {
 }
 .hover-bubble.multi-selector .create-multi input[type=text] {
   color: #292f34 ;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .hover-bubble.multi-selector .create-multi input[type=text] {
@@ -3085,7 +3096,7 @@ body > .content .link.compressed .midcol {
 .content .infobar.listingsignupbar,
 .content .infobar .listingsignupbar__title,
 .content .infobar a.listingsignupbar__container {
-  background: #ffffff !important;
+  background: white !important;
   color: #292f34 !important;
 }
 @media (prefers-color-scheme: dark) {
@@ -3105,7 +3116,7 @@ body > .content .link.compressed .midcol {
 
 .commentarea .infobar {
   border-color: #dadada ;
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   .commentarea .infobar {
@@ -3144,7 +3155,7 @@ body > .content .link.compressed .midcol {
 }
 
 .infobar .md {
-  color: #ffffff ;
+  color: white ;
 }
 @media (prefers-color-scheme: dark) {
   .infobar .md {
@@ -3170,7 +3181,7 @@ body > .content .link.compressed .midcol {
 
 .reddit-infobar.with-icon {
   border: none;
-  background: #ffffff ;
+  background: white ;
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12);
   margin: 0 0 16px;
 }
@@ -3210,7 +3221,6 @@ body input {
   padding: 8px 16px;
   background-color: #f6f7f8 ;
   color: #292f34 ;
-  border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -3278,7 +3288,7 @@ body .crosspost-field:hover,
 body .text:hover,
 body textarea:hover,
 body input:hover {
-  background-color: #ffffff ;
+  background-color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -3403,7 +3413,7 @@ body .content .sitetable .link .title a:hover {
   width: 320px;
   height: 128px;
   border: 1px solid #edf1f3 ;
-  background: #ffffff ;
+  background: white ;
 }
 @media (prefers-color-scheme: dark) {
   .read-next {
@@ -3418,7 +3428,7 @@ body .content .sitetable .link .title a:hover {
 .read-next .read-next-header {
   border-bottom: 1px solid #edf1f3 ;
   color: #98abba ;
-  background-color: #ffffff ;
+  background-color: white ;
   padding: 8px 16px;
 }
 @media (prefers-color-scheme: dark) {
@@ -3441,7 +3451,7 @@ body .content .sitetable .link .title a:hover {
 }
 .read-next .read-next-button {
   background-color: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   font: 10px/16px monospace;
   height: 16px;
   width: 16px;
@@ -3511,10 +3521,10 @@ body .content .thing.spam li[title~=removed] b {
 a.pretty-button[class] {
   background-image: none;
   border: none;
-  color: #ffffff ;
+  color: white ;
   line-height: 16px;
   transition: background-color 0.25s ease;
-  border-radius: 4px;
+  border-radius: 30px;
   text-transform: uppercase;
 }
 @media (prefers-color-scheme: dark) {
@@ -3566,7 +3576,7 @@ a.pretty-button.neutral.pressed, a.pretty-button.negative.pressed {
 }
 
 ul.report-reasons {
-  background: #ffffff ;
+  background: white ;
   border: none;
   padding: 8px;
   font-size: 12px;
@@ -3595,7 +3605,7 @@ html #userTaggerVotesUp {
   box-sizing: content-box;
 }
 html .voteWeight {
-  background-color: #ffffff !important;
+  background-color: white !important;
   color: #98abba !important;
 }
 @media (prefers-color-scheme: dark) {
@@ -3609,7 +3619,7 @@ html .voteWeight {
   }
 }
 html div.res-search-options.res-search-pane.res-search-pane-open {
-  background-color: #ffffff !important;
+  background-color: white !important;
 }
 @media (prefers-color-scheme: dark) {
   html div.res-search-options.res-search-pane.res-search-pane-open {
@@ -3618,9 +3628,8 @@ html div.res-search-options.res-search-pane.res-search-pane-open {
 }
 html .RESMacroDropdown,
 html .res-show-link {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
 }
@@ -3676,7 +3685,7 @@ html.res-commentBoxes body > .content {
 html .res-filterline,
 html .subredditInfoToolTip,
 html .commentarea .res-expando-box div.usertext-body .md {
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .res-filterline,
@@ -3698,9 +3707,8 @@ html .res-filterline-filter-hiding {
 }
 html .RESHover,
 html #srList {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
 }
@@ -3774,9 +3782,8 @@ html div.RES-keyNav-activeElement {
   }
 }
 html .RESDialogSmall {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
 }
 @media (prefers-color-scheme: dark) {
@@ -3796,7 +3803,7 @@ html .RESDialogSmall {
 }
 html .RESDialogSmall > h3 {
   color: #936dfd ;
-  background-color: #ffffff ;
+  background-color: white ;
   border-left: 3px solid #c8c6cc ;
   border-bottom: 1px solid #dadada ;
 }
@@ -3836,7 +3843,7 @@ html #userTaggerToolTip select {
 html .toggleButton .toggleOn {
   border: 1px solid #4f8ef7;
   background-color: #936dfd ;
-  color: #ffffff ;
+  color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .toggleButton .toggleOn {
@@ -3844,7 +3851,7 @@ html .toggleButton .toggleOn {
   }
 }
 html .toggleButton .toggleOff {
-  border-radius: 4px;
+  border-radius: 30px;
   border: 1px solid #c8c6cc ;
   background-color: transparent;
 }
@@ -3881,7 +3888,7 @@ html .res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
   }
 }
 html .res #REScommentNavToggle {
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .res #REScommentNavToggle {
@@ -3921,7 +3928,7 @@ html .res .RESDashboardToggle:hover {
 }
 html .res #progressIndicator {
   color: #d2d0d6 ;
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .res #progressIndicator {
@@ -3942,7 +3949,7 @@ html .res #progressIndicator h2 {
   }
 }
 html .res .NERPageMarker {
-  background-color: #ffffff ;
+  background-color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .res .NERPageMarker {
@@ -4056,7 +4063,7 @@ html .RESDropdownList {
 }
 html .RESDropdownList li {
   background-color: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border-color: #936dfd ;
   transition: all 0.15s ease;
 }
@@ -4079,7 +4086,7 @@ html .RESDropdownList li:first-letter {
   text-transform: capitalize;
 }
 html .RESDropdownList a {
-  color: #ffffff ;
+  color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .RESDropdownList a {
@@ -4087,7 +4094,7 @@ html .RESDropdownList a {
   }
 }
 html .RESDropdownList a:visited {
-  color: #ffffff ;
+  color: white ;
 }
 @media (prefers-color-scheme: dark) {
   html .RESDropdownList a:visited {
@@ -4096,7 +4103,7 @@ html .RESDropdownList a:visited {
 }
 html .RESDropdownList li:hover,
 html .RESDropdownList li a:hover {
-  color: #ffffff ;
+  color: white ;
   background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -4146,7 +4153,7 @@ html .toggleButton.enabled .toggleOff {
   color: #d7dadc ;
   border: 1px solid #936dfd ;
   transition: all 0.15s ease;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 @media (prefers-color-scheme: dark) {
   html .moduleToggle:not(.enabled) .toggleOn,
@@ -4161,8 +4168,8 @@ html .toggleButton.enabled .toggleOn,
 html .moduleToggle:not(.enabled) .toggleOff,
 html .toggleButton:not(.enabled) .toggleOff {
   color: #936dfd ;
-  border: 1px solid #ffffff ;
-  background-color: #ffffff ;
+  border: 1px solid white ;
+  background-color: white ;
   font-weight: bolder;
   transition: all 0.15s ease;
 }
@@ -4360,9 +4367,8 @@ select:disabled:hover, select[aria-disabled=true]:hover {
 }
 
 .drop-choices.lightdrop {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   z-index: 1;
@@ -4412,7 +4418,7 @@ select:disabled:hover, select[aria-disabled=true]:hover {
 
 table {
   margin: 16px 0;
-  border-radius: 4px;
+  border-radius: 30px;
 }
 table > * {
   border-radius: 0px;
@@ -4473,7 +4479,7 @@ table tbody tr th label {
   margin-top: 3px;
   color: #98abba ;
   padding: 1px 4px;
-  border-radius: 4px;
+  border-radius: 30px;
   font-size: 12px;
 }
 @media (prefers-color-scheme: dark) {
@@ -4521,40 +4527,6 @@ table tbody tr th label {
   background: #ff4500;
 }
 
-.flair {
-  color: #292f34 ;
-  background: #f6f7f8 ;
-}
-@media (prefers-color-scheme: dark) {
-  .flair {
-    color: #d7dadc ;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .flair {
-    background: #272729 ;
-  }
-}
-
-.sidecontentbox .userattrs > a,
-.sidecontentbox .flair,
-.link .entry .tagline .userattrs > a,
-.link .entry .tagline .flair {
-  height: auto;
-  border-radius: 4px;
-  margin: 0 5px;
-  padding: 2px 5px;
-  font-size: 10px;
-  color: #d7dadc ;
-  border: none;
-}
-.sidecontentbox .userattrs > a:hover,
-.sidecontentbox .flair:hover,
-.link .entry .tagline .userattrs > a:hover,
-.link .entry .tagline .flair:hover {
-  text-decoration: none;
-}
-
 .thumbnail > img {
   margin-left: 10px;
   width: 50px;
@@ -4577,6 +4549,18 @@ html #tb-footer-block {
 }
 .unvotable-message:first-letter {
   text-transform: capitalize;
+}
+
+.flair {
+  height: auto;
+  border-radius: 30px;
+  margin: 0 5px;
+  padding: 2px 5px;
+  font-size: 10px;
+  border: none;
+  font-weight: bold;
+  background: #936dfd ;
+  color: #d7dadc ;
 }
 
 .entry {
@@ -4629,7 +4613,7 @@ html #tb-footer-block {
   margin: 0 0 16px;
   padding: 0 8px;
   line-height: 36px;
-  background: #ffffff ;
+  background: white ;
   border: none;
   color: #292f34 ;
   max-width: initial;
@@ -4811,12 +4795,11 @@ body > .content .link .rank,
 .subreddit-rules-page .subreddit-rule-delete-confirmation button,
 .subreddit-rules-page .form-buttons button {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -4878,7 +4861,7 @@ body > .content .link .rank,
 .subreddit-rules-page .subreddit-rule-delete-confirmation button:hover,
 .subreddit-rules-page .form-buttons button:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -4973,14 +4956,13 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5022,7 +5004,7 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.collapsed .search-expando-button-label-collapsed:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5049,7 +5031,6 @@ body > .content .link .rank,
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5071,7 +5052,7 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:active {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5091,7 +5072,7 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .search-expando-button.expanded .search-expando-button-label-expanded:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5116,14 +5097,13 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5163,7 +5143,7 @@ body > .content .link .rank,
 }
 .search-page .search-result-listing .search-result-group .nav-buttons .nextprev a:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5233,14 +5213,13 @@ body > .content .link .rank,
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.add {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   display: inline-block;
   margin: 0;
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5282,7 +5261,7 @@ body > .content .link .rank,
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.add:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5309,7 +5288,6 @@ body > .content .link .rank,
   text-decoration: none;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5331,7 +5309,7 @@ body > .content .link .rank,
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:active {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5351,7 +5329,7 @@ body > .content .link .rank,
 }
 .combined-search-page .search-result-subreddit .search-subscribe-button .active.remove:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5417,7 +5395,6 @@ body > .content .link .rank,
   padding: 8px 16px;
   background-color: #f6f7f8 !important;
   color: #292f34 !important;
-  border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -5449,7 +5426,7 @@ body > .content .link .rank,
   }
 }
 .combined-search-page #search input[type=text]:hover {
-  background-color: #ffffff ;
+  background-color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5464,7 +5441,7 @@ body > .content .link .rank,
 }
 
 .linefield {
-  background: #ffffff ;
+  background: white ;
   color: #98abba ;
   margin: 0 0 16px;
   width: 528px;
@@ -5481,7 +5458,7 @@ body > .content .link .rank,
   }
 }
 .linefield.mobile {
-  background: #ffffff ;
+  background: white ;
   color: #98abba ;
   margin: 0 0 16px;
   width: 528px;
@@ -5659,7 +5636,7 @@ pre {
 
 #images {
   padding: 8px 0;
-  background: #ffffff ;
+  background: white ;
   position: relative;
   overflow: auto;
   height: inherit;
@@ -5726,12 +5703,11 @@ ul.image-preview-list li .description pre {
 
 .content.submit ul.tabmenu li:not(.selected) a {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5770,7 +5746,7 @@ ul.image-preview-list li .description pre {
 }
 .content.submit ul.tabmenu li:not(.selected) a:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5798,7 +5774,6 @@ ul.image-preview-list li .description pre {
   margin: 16px 16px 16px 0;
   font-size: 14px;
   text-align: center;
-  border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
   height: 36px;
@@ -5817,7 +5792,7 @@ ul.image-preview-list li .description pre {
 }
 .content.submit ul.tabmenu li.selected a:active {
   background: #936dfd ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5837,7 +5812,7 @@ ul.image-preview-list li .description pre {
 }
 .content.submit ul.tabmenu li.selected a:hover {
   background: #c9b6fe ;
-  color: #ffffff ;
+  color: white ;
   border: 1px solid #c9b6fe ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5886,7 +5861,6 @@ ul.image-preview-list li .description pre {
   padding: 8px 16px;
   background-color: #f6f7f8 !important;
   color: #292f34 !important;
-  border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -5918,7 +5892,7 @@ ul.image-preview-list li .description pre {
   }
 }
 .content.submit .formtabs-content #newlink-with-image-upload .image-upload-drop-target:hover {
-  background-color: #ffffff ;
+  background-color: white ;
   border: 1px solid #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
@@ -5975,7 +5949,7 @@ ul.image-preview-list li .description pre {
 }
 
 .wiki-page .wikititle {
-  background: #ffffff ;
+  background: white ;
   padding: 9px 16px 10px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   margin: 0;
@@ -5986,7 +5960,7 @@ ul.image-preview-list li .description pre {
   }
 }
 .wiki-page .pageactions {
-  background: #ffffff ;
+  background: white ;
   margin-left: 16px;
   padding: 0 16px;
   border: none;
@@ -6029,9 +6003,8 @@ ul.image-preview-list li .description pre {
   background: rgba(0, 0, 0, 0.05);
 }
 .wiki-page .wiki-page-content {
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   padding: 16px;
@@ -6119,11 +6092,11 @@ ul.image-preview-list li .description pre {
   width: 100%;
   left: 0;
   background: #7193ff;
-  color: #ffffff ;
+  color: white ;
   font-size: 1.1rem;
   display: inline-block;
   max-height: 35px;
-  animation-name: u2p4zo4;
+  animation-name: uckfghc;
   animation-delay: 0s;
   animation-duration: 0.5s;
   animation-timing-function: ease;
@@ -6141,7 +6114,7 @@ ul.image-preview-list li .description pre {
     color: #d7dadc ;
   }
 }
-@keyframes u2p4zo4 {
+@keyframes uckfghc {
   0% {
     width: 0;
   }
@@ -6157,17 +6130,16 @@ ul.image-preview-list li .description pre {
   padding: 0px;
 }
 
-.side .titlebox h1.redditname:before {
+.side .titlebox h1.redditname:before,
+.side .titlebox h1.redditname a {
+  color: #d7dadc ;
   background-color: #936dfd ;
 }
 @media (prefers-color-scheme: dark) {
-  .side .titlebox h1.redditname:before {
-    background-color: #936dfd ;
-  }
-}
-
+  .side .titlebox h1.redditname:before,
 .side .titlebox h1.redditname a {
-  color: #d7dadc ;
+    background-color: #1a1a1b ;
+  }
 }
 
 body #header {
@@ -6227,9 +6199,8 @@ body.wiki-page .side #search, body.comments-page .side #search, body.listing-pag
   left: 24px;
   top: 156px;
   height: 58px;
-  background-color: #ffffff ;
+  background-color: white ;
   color: #292f34 ;
-  border-radius: 4px;
   border: 1px solid;
   border-color: #dadada ;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -6358,6 +6329,7 @@ body.comments-page .side {
   background-image: url(%%title%%);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   text-indent: -9999px;
 }
 #header .pagename a:hover {
@@ -6369,11 +6341,10 @@ body.comments-page .side {
   display: block;
   height: 50px;
   width: 100%;
-  background-color: #936dfd ;
-  background-image: url(%%title%%);
+  background-image: url(%%sidebar-img%%);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
+  background-size: contain;
   text-indent: -9999px;
 }
 
@@ -6431,9 +6402,9 @@ body:not(.subscriber) div.multi-selector.hover-bubble.anchor-right {
   color: #d7dadc ;
 }
 
-.side h3:nth-child(3) > a {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+.side h3:nth-child(6) > a {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
 }
 .side ol:nth-of-type(1) {
   border: 1px solid #936dfd ;
