@@ -147,7 +147,7 @@ html {
   // Misc. Fixes
 
   .res .thing .tagline .author {
-    border-radius: v.$radius !important;
+    border-radius: 4px !important;
   }
 
   &:hover {
@@ -186,7 +186,7 @@ html {
     .commentarea {
       .thing {
         border: none !important;
-        border-radius: v.$radius !important;
+        border-radius: 4px !important;
       }
       & .comment {
         @include v.theme("border", v.$line, false, true, "1px solid", true);
