@@ -7,7 +7,7 @@ body {
     @include v.thing(true);
     @include v.container(true);
     margin-right: (v.$container-margin-vert * 2) + v.$sidebar-width;
-
+    border-radius: 4px;
     .usertext-edit {
       width: 100%;
       .md {
